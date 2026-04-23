@@ -27,8 +27,8 @@
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
+|CRUD simple|1. CRUD Empleado<br>2. CRUD Mesa<br>3. CRUD Producto<br>4. CRUD Categoría<br>5. CRUD Insumos
+|CRUD dependiente|1. CRUD Mozo {depende de} Empleado<br>2. CRUD Admin {depende de} Empleado<br>3. CRUD Pedido {depende de} Mozo y Mesa<br>4. CRUD Pedidos-Producto {depende de} Pedido y Producto<br>5. CRUD Receta {depende de} Producto e Insumos|
 |Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
 |CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
 
@@ -36,7 +36,7 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
+|CRUD |1. CRUD Empleado<br>2. CRUD Mozo {depende de} Empleado<br>3. CRUD Admin {depende de} Empleado<br>4. CRUD Mesa<br>5. CRUD Pedido<br>6. CRUD Producto<br>7. CRUD Categoría<br>8. CRUD Pedidos-Producto {depende de} Pedido y Producto<br>9. CRUD Insumos<br>10. CRUD Receta {depende de} Producto e Insumos<br>11. CRUD Pago<br>12. CRUD Tarjeta {depende de} Pago<br>13. CRUD Efectivo {depende de} Pago<br>14. CRUD Pedido_Pago {depende de} Pedido y Pago|
 |CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
 
 
