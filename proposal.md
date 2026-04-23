@@ -27,24 +27,16 @@ Regularidad:
 |Req|Detalle|
 |:-|:-|
 |CRUD simple|1. CRUD Empleado<br>2. CRUD Mesa<br>3. CRUD Producto<br>4. CRUD Categoría<br>5. CRUD Insumos
-|CRUD dependiente|1. CRUD Mozo {depende de} Empleado<br>2. CRUD Admin {depende de} Empleado<br>3. CRUD Pedido {depende de} Mozo y Mesa<br>4. CRUD Pedidos-Producto {depende de} Pedido y Producto<br>5. CRUD Receta {depende de} Producto e Insumos|
-|Listado<br>+<br>detalle| 1. Listado de empleados con datos básicos (nombre, rol, estado) + vista de detalle individual.
-2. Listado de mesas con estado (libre/ocupada) + detalle de pedidos asociados.
-3. Listado de productos con categoría y precio + detalle con insumos asociados.
-4. Listado de pedidos con estado + detalle completo (productos, cantidades, total, mesa, mozo).
-5. Listado de insumos con stock + detalle de consumo por recetas.
+|CRUD dependiente|1. CRUD Pedido {depende de} Mozo y Mesa<br>2. CRUD Pedidos-Producto {depende de} Pedido y Producto<br>3. CRUD Receta {depende de} Producto e Insumos|
+|Listado<br>+<br>detalle| 1. Listado de empleados con datos básicos (nombre, rol, estado) + vista de detalle individual. <br>2. Listado de mesas con estado (libre/ocupada) + detalle de pedidos asociados.<br>3. Listado de productos con categoría y precio + detalle con insumos asociados.<br>4. Listado de pedidos con estado + detalle completo (productos, cantidades, total, mesa, mozo).<br>5. Listado de insumos con stock + detalle de consumo por recetas.|
 
-|CUU/Epic| 1. Gestión de empleados.
-2. Gestión de mesas.
-3. Gestión de productos.
-4. Gestión de pedidos.
-5. Gestión de insumos.
+|CUU/Epic| 1. Gestión de empleados.<br>2. Gestión de mesas.<br>3. Gestión de productos.<br>4. Gestión de pedidos.<br>5. Gestión de insumos.|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Empleado<br>2. CRUD Mozo {depende de} Empleado<br>3. CRUD Admin {depende de} Empleado<br>4. CRUD Mesa<br>5. CRUD Pedido<br>6. CRUD Producto<br>7. CRUD Categoría<br>8. CRUD Pedidos-Producto {depende de} Pedido y Producto<br>9. CRUD Insumos<br>10. CRUD Receta {depende de} Producto e Insumos<br>11. CRUD Pago<br>12. CRUD Tarjeta {depende de} Pago<br>13. CRUD Efectivo {depende de} Pago<br>14. CRUD Pedido_Pago {depende de} Pedido y Pago|
+|CRUD |1. CRUD Admin {depende de} Empleado<br>2. CRUD Mesa<br>3. CRUD Pedido<br>4. CRUD Producto<br>5. CRUD Categoría<br>6. CRUD Pedidos-Producto {depende de} Pedido y Producto<br>7. CRUD Insumos<br>8. CRUD Receta {depende de} Producto e Insumos<br>9. CRUD Pago<br>10. CRUD Tarjeta {depende de} Pago<br>11. CRUD Efectivo {depende de} Pago<br>12. CRUD Pedido_Pago {depende de} Pedido y Pago|
 
 
 
