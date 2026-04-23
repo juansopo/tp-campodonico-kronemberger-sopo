@@ -22,15 +22,23 @@ https://drive.google.com/file/d/1FjrYlUkRbaD9eWgYDLq-ql1AdkbXdvil/view?usp=shari
 
 ### Alcance Mínimo
 
-*Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
 
 Regularidad:
 |Req|Detalle|
 |:-|:-|
 |CRUD simple|1. CRUD Empleado<br>2. CRUD Mesa<br>3. CRUD Producto<br>4. CRUD Categoría<br>5. CRUD Insumos
 |CRUD dependiente|1. CRUD Mozo {depende de} Empleado<br>2. CRUD Admin {depende de} Empleado<br>3. CRUD Pedido {depende de} Mozo y Mesa<br>4. CRUD Pedidos-Producto {depende de} Pedido y Producto<br>5. CRUD Receta {depende de} Producto e Insumos|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+|Listado<br>+<br>detalle| 1. Listado de empleados con datos básicos (nombre, rol, estado) + vista de detalle individual.
+2. Listado de mesas con estado (libre/ocupada) + detalle de pedidos asociados.
+3. Listado de productos con categoría y precio + detalle con insumos asociados.
+4. Listado de pedidos con estado + detalle completo (productos, cantidades, total, mesa, mozo).
+5. Listado de insumos con stock + detalle de consumo por recetas.
+
+|CUU/Epic| 1. Gestión de empleados.
+2. Gestión de mesas.
+3. Gestión de productos.
+4. Gestión de pedidos.
+5. Gestión de insumos.
 
 
 Adicionales para Aprobación
