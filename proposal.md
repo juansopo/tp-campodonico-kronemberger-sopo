@@ -24,13 +24,12 @@ https://drive.google.com/file/d/1FjrYlUkRbaD9eWgYDLq-ql1AdkbXdvil/view?usp=shari
 
 
 Regularidad:
-|Req|Detalle|
-|:-|:-|
-|CRUD simple|1. CRUD Empleado<br>2. CRUD Mesa<br>3. CRUD Producto<br>4. CRUD Categoría<br>5. CRUD Insumos
-|CRUD dependiente|1. CRUD Pedido {depende de} Mozo y Mesa<br>2. CRUD Pedidos-Producto {depende de} Pedido y Producto<br>3. CRUD Receta {depende de} Producto e Insumos|
-|Listado<br>+<br>detalle| 1. Listado de empleados con datos básicos (nombre, rol, estado) + vista de detalle individual. <br>2. Listado de mesas con estado (libre/ocupada) + detalle de pedidos asociados.<br>3. Listado de productos con categoría y precio + detalle con insumos asociados.<br>4. Listado de pedidos con estado + detalle completo (productos, cantidades, total, mesa, mozo).<br>5. Listado de insumos con stock + detalle de consumo por recetas.|
-
-|CUU/Epic| 1. Gestión de empleados.<br>2. Gestión de mesas.<br>3. Gestión de productos.<br>4. Gestión de pedidos.<br>5. Gestión de insumos.|
+| Req | Detalle |
+|-----|---------|
+| CRUD simple | 1. CRUD Empleado<br>2. CRUD Mesa<br>3. CRUD Producto<br>4. CRUD Categoría<br>5. CRUD Insumos |
+| CRUD dependiente | 1. CRUD Pedido (depende de Mozo y Mesa)<br>2. CRUD Pedidos-Producto (depende de Pedido y Producto)<br>3. CRUD Receta (depende de Producto e Insumos) |
+| Listado + detalle | 1. Listado de empleados con datos básicos (nombre, rol, estado) + vista de detalle individual<br>2. Listado de mesas con estado (libre/ocupada) + detalle de pedidos asociados<br>3. Listado de productos con categoría y precio + detalle con insumos asociados<br>4. Listado de pedidos con estado + detalle completo (productos, cantidades, total, mesa, mozo)<br>5. Listado de insumos con stock + detalle de consumo por recetas |
+| CUU/Epic | 1. Gestión de empleados<br>2. Gestión de mesas<br>3. Gestión de productos<br>4. Gestión de pedidos<br>5. Gestión de insumos |
 
 
 Adicionales para Aprobación
