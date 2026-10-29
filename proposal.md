@@ -18,6 +18,9 @@ Sistema de gestión para restaurante que permite administrar pedidos, mesas, emp
 ### Modelo
 https://drive.google.com/file/d/1FjrYlUkRbaD9eWgYDLq-ql1AdkbXdvil/view?usp=sharing
 
+### Video
+https://drive.google.com/file/d/1SVvVCLcwou3l-6fawGISDxr4zCpSWx-D/view?usp=sharing
+
 ## Alcance Funcional 
 
 ### Alcance Mínimo
