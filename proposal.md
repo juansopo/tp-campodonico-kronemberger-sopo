@@ -7,8 +7,8 @@
 * 54812 Sopo, Juan Esteban
 
 ### Repositorios
-* [frontend app]([http://hyperlinkToGihubOrGitlab](https://github.com/FacuCampodonico/FrontEnd-Lution))
-* [backend app]([http://hyperlinkToGihubOrGitlab](https://github.com/FacuCampodonico/BackEnd-Lution))
+front: https://github.com/FacuCampodonico/FrontEnd-Lution
+back: https://github.com/FacuCampodonico/BackEnd-Lution
 
 
 ## Tema
