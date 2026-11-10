@@ -22,6 +22,9 @@ https://drive.google.com/file/d/1FjrYlUkRbaD9eWgYDLq-ql1AdkbXdvil/view?usp=shari
 ### Video
 https://drive.google.com/file/d/1SVvVCLcwou3l-6fawGISDxr4zCpSWx-D/view?usp=sharing
 
+### Video pago con qr
+https://drive.google.com/file/d/18EVYK7jsx-vhqcNRXMnjeipviZ7laG4_/view?usp=sharing
+
 ## Alcance Funcional 
 
 ### Alcance Mínimo
